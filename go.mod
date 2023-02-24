@@ -16,8 +16,6 @@ require (
 	github.com/google/certificate-transparency-go v0.0.0-20181127102053-c25855a82c75
 	github.com/grpc-ecosystem/go-grpc-prometheus v0.0.0-20170826090648-0dafe0d496ea
 	github.com/jmhodges/clock v0.0.0-20160418191101-880ee4c33548
-	github.com/jmoiron/sqlx v0.0.0-20180124204410-05cef0741ade // indirect
-	github.com/kisielk/sqlstruct v0.0.0-20150923205031-648daed35d49 // indirect
 	github.com/letsencrypt/challtestsrv v1.0.2
 	github.com/letsencrypt/pkcs11key v1.0.0
 	github.com/lib/pq v1.1.0 // indirect
@@ -38,10 +36,9 @@ require (
 	github.com/ziutek/mymysql v1.5.4 // indirect
 	github.com/zmap/zcrypto v0.0.0-20190729165852-9051775e6a2e
 	github.com/zmap/zlint v1.0.2-0.20190921214057-00156801166b
-	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
-	golang.org/x/net v0.0.0-20190415214537-1da14a5a36f2
-	golang.org/x/sys v0.0.0-20190416152802-12500544f89f // indirect
-	golang.org/x/text v0.3.0
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/net v0.7.0
+	golang.org/x/text v0.7.0
 	google.golang.org/genproto v0.0.0-20190415143225-d1146b9035b9 // indirect
 	google.golang.org/grpc v1.20.0
 	gopkg.in/go-gorp/gorp.v2 v2.0.0-20180410155428-6032c66e0f5f
